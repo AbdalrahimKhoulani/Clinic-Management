@@ -1,0 +1,161 @@
+     Get Links : #it start with "api/get" .
+
+
+ - /specializations
+
+ - /doctors
+
+ - /roles
+
+ -/accounts
+
+ -/medicines
+
+ -/patients
+
+ -/sicknesses
+
+ -/appointments
+
+ -/doctor/id={id}
+
+ -/doctors/name={name}
+
+ -/doctors/speci={name}
+
+ -/doctors/workday={name}
+
+ -/doctors/patient={patientID}
+
+ -/patient/id={id}
+
+ -/patients/name={name}
+
+ -/patients/sickness={name}
+
+ -/patients/medicine={name}
+
+ -/patients/address={address}
+
+ -/patients/dateOfBirth={date}
+
+ -/patients/doctor={id}
+
+ -/appointment/id={id}
+
+ -/appointments/doctor={doctorID}
+
+ -/appointments/date={date}
+
+ -/appointments/patient={patientID}
+
+ -/role/id={id}
+
+ -/account/id={id}
+
+ -/specialization/id={id}
+
+ -/attachment/id={id}
+
+ -/medicine/id={id}
+
+ -/sickness/id{id}
+
+ -/medicines/patient={patientID}
+
+ -/sicknesses/patient={patientID}
+
+ -/attachments/session={sessionID}
+
+
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+
+
+      Post Links : #it start with "api/post" .
+
+
+  -/login
+
+  -/account
+
+  -/doctor
+
+  -/speci  #it is an abbreviation to " Specialization "
+
+  -/role
+
+  -/report
+
+  -/medicine
+
+  -/sickness
+
+  -/attachment
+
+  -/appointment
+
+  -/patient
+
+
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+
+
+       Put Links : #it start with "api/update" .
+
+ -/account
+
+ -/doctor
+
+ -/role
+
+ -/speci   #it is an abbreviation to " Specialization ".
+
+ -/appointment
+
+ -/patient
+
+ -/linkWorkTimeWithDoctor
+
+ -/linkMedicineWithPatient
+
+ -/linkPatientWithSickness
+
+
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+
+
+
+       Delete Links : #it start with "api/delete"
+
+
+ # NOTE : You must have the primary key of table ( entity ) to allowed to delete it .
+
+ -/doctor/id={id}
+
+ -/specialization/id={id}
+
+ -/role/id={id}
+
+ -/account/id={id}
+
+ -/attachment/id={id}
+
+ -/medicine/id={id}
+
+ -/session/id={id}
+
+ -/sickness/id={id}
+
+ -/appointment/id={id}
+
+ -/patient/id={id}
+
+ -/cancel/medicine/medicineID={medicineID}/patient/patientID={patientID}
+
+ -/cancel/sickness/sicknessID={sicknessID}/patient/patientID={patientID}
+
+ -/cancel/workTime
+
+
+
+ *************************[ Created By : a7la shabab Team ©]******************************
